@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageButton
+        android:id="@+id/btnlmaboutus"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="624dp"
+        android:layout_marginLeft="624dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="536dp"
+        android:layout_marginRight="536dp"
+        android:background="#D3D3D3" />
+
+    <ImageButton
+        android:id="@+id/btnlmemergencynumbers"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="748dp"
+        android:layout_marginLeft="748dp"
+        android:layout_marginTop="513dp"
+        android:layout_marginEnd="412dp"
+        android:layout_marginRight="412dp"
+        android:background="#6E6C6C"
+        tools:src="@drawable/ic_report_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmhouseinfo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="378dp"
+        android:layout_marginLeft="378dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="782dp"
+        android:layout_marginRight="782dp"
+        android:background="#FFC107"
+        tools:src="@drawable/ic_home_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmweather"
+        android:layout_width="238dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="504dp"
+        android:layout_marginLeft="504dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="538dp"
+        android:layout_marginRight="538dp"
+        android:background="#D3D3D3" />
+
+    <ImageButton
+        android:id="@+id/btnlmmap"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="746dp"
+        android:layout_marginLeft="746dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="414dp"
+        android:layout_marginRight="414dp"
+        android:background="#6E6C6C"
+        android:tint="#00FFFFFF"
+        tools:src="@drawable/ic_pin_drop_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmcontact"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="379dp"
+        android:layout_marginLeft="379dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="781dp"
+        android:layout_marginRight="781dp"
+        android:background="#6E6C6C"
+        tools:src="@drawable/ic_contact_mail_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmservice"
+        android:layout_width="113dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="504dp"
+        android:layout_marginLeft="504dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="663dp"
+        android:layout_marginRight="663dp"
+        android:background="#D3D3D3"
+        tools:src="@drawable/ic_room_service_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmclaimreport"
+        android:layout_width="118.5dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="624dp"
+        android:layout_marginLeft="624dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="537dp"
+        android:layout_marginRight="537dp"
+        android:background="#6E6C6C"
+        tools:src="@drawable/ic_report_problem_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmsurrounding"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="748dp"
+        android:layout_marginLeft="748dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="412dp"
+        android:layout_marginRight="412dp"
+        android:background="#FFC107"
+        tools:src="@drawable/ic_info_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/btnlmcustomersatisfaction"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="378dp"
+        android:layout_marginLeft="378dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="662dp"
+        android:layout_marginRight="662dp"
+        android:background="#708090"
+        tools:src="@drawable/ic_insert_emoticon_black_24dp" />
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/v_flipper"
+        android:layout_alignParentTop="true"/>
+
+
+</RelativeLayout>
